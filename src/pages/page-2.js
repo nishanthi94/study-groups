@@ -11,6 +11,12 @@ const SecondPage = () => (
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
+  
+  render() { 
+        return ( 
+            <img src={hail_per_month.gif} alt={"hail"}/> 
+        )  
+    }
 )
 
 export default SecondPage
